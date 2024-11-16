@@ -1,0 +1,98 @@
+:root{
+
+    --Tomato: hsl(4, 100%, 67%);
+    --DarkSlateGrey: hsl(234, 29%, 20%);
+    --CharcoalGrey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+    
+}
+
+body{
+    background-color: var(--CharcoalGrey);
+    font-family: Roboto;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    color: var(--DarkSlateGrey);
+}
+
+main{
+    background-color: var(--White);
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.59) 3px 3px 10px ;
+
+}
+
+input{
+    font-family: Roboto;
+    padding: 1rem;
+    border: solid 1px var(--Grey);
+    border-radius: .5rem;
+}
+
+button{
+    background-color: var(--DarkSlateGrey);
+    color: var(--White);
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    font-family: Roboto;
+    font-weight: 500;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+table{
+    margin: 1rem;
+    text-align: left;
+    width: 25rem; 
+}
+
+table th{
+    padding: .7rem;
+   
+}
+
+
+table tr td{
+    padding-right: .5rem;
+   
+}
+#botonBorrar, .checkListo{
+    border-radius: 100%;
+    background-color: var(--Tomato);
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+.checkListo{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+
+.resumen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3rem;
+    text-align: left;
+}
+.resumen p{
+    margin: .3rem;
+    line-height: 100%;
+   
+}
